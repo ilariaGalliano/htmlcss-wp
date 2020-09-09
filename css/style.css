@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.container{
+  margin:auto;
+  padding: 10px;
+  width: 1000px;
+  height:1500px;
+}
+
+body{
+   background:url(../img/natural-pattern.png);
+ }
+
+/*stili header*/
+
+.top{
+  text-align: center;
+  background: url(../img/natural-header.jpg);
+  background-size: cover;
+  border:10px solid white;
+  border-radius: 5px;
+}
+
+.top img{
+  width: 50%
+}
+
+header h2{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* stili barra navigazione*/
+.nav-bar{
+  background: grey;
+  text-align: center;
+  color: white;
+  margin-top: -5px;
+  border-radius: 5%;
+}
+
+li:hover{
+  color: lightgrey;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.nav-bar ul li{
+  display: inline-block;
+}
+/*stili main*/
+
+main{
+  width:96%;
+  height:70%;
+  border-radius: 5px;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*stile col sx*/
+.col-sx{
+  background: white;
+  width: 20%;
+  height: 350px;
+  float: left;
+  border-radius: 5%;
+}
+.text-1{
+  color: green;
+  font-weight: bold;
+}
+
+h2{
+  color:#282828;
+}
+
+
+/*stile col centrale*/
+.col-centro{
+  background: white;
+  width: 50%;
+  height: 280px;;
+  float: left;
+  margin-right: 35px;
+  margin-left: 35px;
+  border-radius: 5%;
+}
+p i{
+  float: left;
+  width: 20%;
+  color: orange;
+  font-size: 25px;
+}
+.col-centro h1{
+  padding: 5px;
+  color: #282828;
+}
+.col-centro p{
+  line-height: 1.5;
+}
+/*stile col dx*/
+.col-dx{
+  width: 20%;
+  float: left;
+  border-radius: 5%;
+}
+
+.widget h2{
+  color:#282828;
+}
+
+.widget{
+  width: 95%;
+  height: 300px;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 5%;
+}
+
+/*stile footer*/
+footer{
+  background: lightgrey;
+  width: 100%;
+  text-align: center;
+}
+
+span{
+  color: #9c9c9c;
+  font-size: 20px;
+}
+
+.lista-social ul{
+  list-style:none;
+}
+
+.lista-social::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.lista-social li{
+  float: left;
+  width: 30%;
+  padding:10px;
+  font-size: 40px;
+}
+
+li i{
+  color: #9c9c9c;
+}
