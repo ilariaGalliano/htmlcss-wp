@@ -43,14 +43,19 @@ header h2{
   border-radius: 5%;
 }
 
-li:hover{
+.nav-bar ul li:hover{
   color: lightgrey;
 }
 
 nav ul{
   list-style: none;
 }
-
+.text{
+  list-style: none;
+  text-decoration: none;
+  color: green;
+  font-size: 16px;
+}
 .nav-bar ul li{
   display: inline-block;
 }
@@ -72,13 +77,16 @@ main::after{
 .col-sx{
   background: white;
   width: 20%;
-  height: 350px;
+  height: 400px;
   float: left;
   border-radius: 5%;
 }
 .text-1{
   color: green;
   font-weight: bold;
+}
+.text li:hover{
+  color: lightgrey;
 }
 
 h2{
@@ -159,4 +167,7 @@ span{
 
 li i{
   color: #9c9c9c;
+}
+li i:hover{
+  color: blue;
 }
